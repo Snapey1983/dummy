@@ -1,0 +1,137 @@
+body {
+    background: url(../img/monkees3.jpg) fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #9B0503 !important;
+    color: #F8B719 !important;
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+
+.navbar-nav a {
+    font-family: 'Walter Turncoat', cursive; 
+    font-size: 30px;
+    color: #F8B719 !important;
+    margin: 20px;
+    padding: 20px;
+}
+
+.navbar-nav a:hover {
+    color: #CA7C4A !important;
+}
+
+.jumbotron {
+    margin-top: 500px;
+    background-color: rgba(0,0,0,0.5);
+    color: #F8B719;
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clr {
+    clear: both;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    margin: auto;
+    background-color: #9B0503;
+}
+
+.footer-social-icons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.footer-social-icons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-social-icons ul li {
+    display: inline-block;
+    margin-right: 2px;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+}
+
+.footer-social-icons ul li a {
+    color: #F8B719;
+    display: block;
+    font-size: 22px;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
+}
+
+.footer-social-icons ul li a i:hover {
+    color: #CA7C4A !important;
+}
+
+.container-footer {
+    font-family: 'Walter Turncoat', cursive;
+    background-size: 500px;
+    padding: 20px 10px;
+    text-align: center;
+    color: #F8B719;
+}
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.email-box i {
+    background: #F8B719;
+    width: 40px;
+    line-height: 40px;
+    color: #9B0503;
+}
+
+.email-box p {
+    text-transform: uppercase;
+}
+
+.tbox, .btn {
+    border: 0;
+    outline: none;
+}
+
+.tbox {
+    width: 0;
+    transition: .6s;
+    
+}
+
+.email-box:hover > .tbox, .tbox:focus {
+    width: 260px;
+    padding: 0 10px;
+    
+} 
+    
+.btn {
+    background: #F8B719;
+    color: #9B0503;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
