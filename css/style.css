@@ -1,4 +1,6 @@
 body {
+    font-family: 'Walter Turncoat', cursive;
+    color: #F8B719;
     background: url(../img/monkees3.jpg) fixed center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -6,8 +8,10 @@ body {
     background-size: cover;
 }
 
+/*----------NAVBAR---------*/
+
 .navbar {
-    background-color: #9B0503 !important;
+    background-color: rgba(155, 5, 3, .7) !important;
     color: #F8B719 !important;
 }
 
@@ -20,8 +24,7 @@ body {
 }
 
 .navbar-nav a {
-    font-family: 'Walter Turncoat', cursive; 
-    font-size: 30px;
+    font-size: 20px;
     color: #F8B719 !important;
     margin: 20px;
     padding: 20px;
@@ -30,6 +33,8 @@ body {
 .navbar-nav a:hover {
     color: #CA7C4A !important;
 }
+
+/*----------JUMBOTRON---------*/
 
 .jumbotron {
     margin-top: 500px;
@@ -41,16 +46,115 @@ body {
     text-transform: uppercase;
 }
 
-.clr {
-    clear: both;
+/*----------HISTORY---------*/
+
+#history-section {
+    background-image: linear-gradient(to right, rgba(170, 39, 11, .6), rgba(253, 219, 36, .6)), url(../img/monkees1.jpg);
+    background-position: center;
+    position: relative;
+    margin-top: 500px;
+    margin-bottom: 500px;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 40px;
+    transform: translate(-100%, -50%);
+    width: 900px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.1);
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    transition: .5s;
+}
+
+.box:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);  
+    background: rgba(0,0,0,.2);
+}
+
+.box .imgbx {
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.box .imgbx img {
+    max-width: 100%;
+}
+
+.box .content {
+    padding-left: 20px;
+}
+
+.box .content h2 {
+    margin: 0;
+    padding-left: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+  
+.box .content p {
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    font-size: 20px;
+} 
+
+.box-van-scott {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.box-van-scott .img-van-scott img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    height: 400px;
+    Width: 650px;
+    margin-left: 150px;
+    transform: translate(0%, 30%);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    transition: .5s;
+}
+
+.box-van-scott .img-van-scott img:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,.5);  
+}
+
+
+.column {
+    float: left;
+}
+
+/*----------GALLERY---------*/
+
+.gallery {
+    margin: 500px;
+    background: linear-gradient(to right, rgba(170, 39, 11, .4), rgba(253, 219, 36, .4))
+}
+
+/*----------FOOTER---------*/
 
 .footer-wrapper {
     width: 100%;
     height: auto;
     min-height: 100px;
     margin: auto;
-    background-color: #9B0503;
+    background-color: rgba(155, 5, 3, .7);
 }
 
 .footer-social-icons {
@@ -133,5 +237,24 @@ body {
     padding: 0 10px;
     text-transform: uppercase;
     cursor: pointer;
-    
+}
+
+
+
+@media (max-width:767px) {
+     {
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    {
+     
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+     {
+        
+    }
 }
